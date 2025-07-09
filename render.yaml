@@ -1,7 +1,9 @@
 services:
   - type: worker
     name: bot-crous
-    env: python
-    plan: free
-    buildCommand: ""
-    startCommand: python bot.py
+    runtime: python
+    repo: https://github.com/touXik/crous_alert_bot
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python v.py
+
