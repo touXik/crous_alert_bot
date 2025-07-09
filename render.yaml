@@ -5,5 +5,5 @@ services:
     repo: https://github.com/touXik/crous_alert_bot
     branch: main
     buildCommand: pip install -r requirements.txt
-    startCommand: python v.py
+    startCommand: python bot.py
 
