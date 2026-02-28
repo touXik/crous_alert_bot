@@ -2,10 +2,10 @@ import requests
 import time
 
 # === CONFIGURATION ===
-URL = "https://trouverunlogement.lescrous.fr/tools/41/search?bounds=5.9409699_47.3200746_6.0834844_47.2006872"
-BOT_TOKEN = "8015395788:AAFV_ovHTYP0UNaYzPp0wfof7frYmfD4R1I"
+URL = "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=5.9409699_47.3200746_6.0834844_47.2006872"
+BOT_TOKEN = "8758339041:AAH7cXum9-_XlaIvVBu1S4e9ydwNlMlNbOU"
 CHAT_ID = "5825590629"
-CHECK_INTERVAL = 180  # toutes les 3 minutes
+CHECK_INTERVAL = 30  # toutes les 3 minutes
 
 # === Fonction Telegram ===
 def envoyer_message_telegram(message):
