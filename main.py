@@ -1,10 +1,11 @@
 import requests
 import time
-
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 # === CONFIGURATION ===
 URL = "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=5.9409699_47.3200746_6.0834844_47.2006872"
-BOT_TOKEN = "8758339041:AAH7cXum9-_XlaIvVBu1S4e9ydwNlMlNbOU"
-CHAT_ID = "5825590629"
+
 CHECK_INTERVAL = 30  # toutes les 3 minutes
 
 # === Fonction Telegram ===
